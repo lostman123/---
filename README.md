@@ -7,6 +7,13 @@ Download video courses from 复旦大学终身教育学院 (learnin.com.cn / med
 - [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE) (CLI tool)
 - `ffmpeg` (for merging ts segments into mp4)
 
+打开浏览器的开发者模式（推荐谷歌浏览器）
+选择网络
+刷新页面
+搜索“media”或“o-learn”等等
+在标头中，选择带m3u8的请求网址进行复制
+然后直接丢给agent就好了
+
 ## Usage
 
 ### 1. Get the m3u8 URL
